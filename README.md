@@ -39,7 +39,9 @@ Buzzlet - Project Deployment on your local machine
 	- Extract the mysql-connector-java-8.0.27.jar 
 	- Right-click the Library file and add a new jar file: navigate to and select the mysql connector
     - Go to phpMyAdmin and import a new database
-	- use the buzzletdb.sql file from the Buzzlet project
+	- Use the buzzletdb.sql file from the Buzzlet source packages and name it buzzletdb 
+    - Open the ConnectionFactory.java file in the DataLayer package
+        - If needed, update the username, password, and dbUrl credential constants to use your buzzlet database information.
     - Right-click on the project and select Resolve Reference Problems
     - Clean and build the project 
     - Run the project even if the clean+build had errors
