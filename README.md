@@ -24,7 +24,7 @@ Buzzlet - Project Deployment on your local machine
     - If you don't already have it, extract the jakarta.jakartaee-web-api-9.0.0.jar file and
       place it in your NetBeans's modules folder, e.g.  
 	C:\Program Files\NetBeans-12.5\netbeans\enterprise\modules 
-    - Extract and run the jdk-8u271-windows-x64.exe file if you don't already jave the java jdk working with Netbeans.
+    - Download and install Java Development Kit 8 (JDK 8)
     - Extract the Buzzlet project from Buzzlet_AlexHunter.zip
 	- if it has a build folder, delete it.
     - In Apache Netbeans, create a new Java Web Application with Existing Sources
@@ -48,4 +48,4 @@ Buzzlet - Project Deployment on your local machine
     - If you have unresolved issues you cannot fix on your own, feel free to contact me for help.
 
 Orangutan Website
-- Simply extract the files and run index.html in a web browser like Google Chrome.
+- Simply extract the files and run index.html in a web browser such as Google Chrome.
